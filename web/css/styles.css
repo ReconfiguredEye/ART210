@@ -1,4 +1,3 @@
-@import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
 
 body {
   padding:50px;
@@ -71,8 +70,6 @@ h5 {
 
 h6 {
 }
-
-
 
 a {
   color:#39c;
@@ -153,7 +150,7 @@ header {
 
 header ul {
   list-style:none;
-  height:40px;
+  /*height:40px;*/
   padding:0;
   margin-bottom: 1em;
 
@@ -168,13 +165,11 @@ header ul {
   border-radius:5px;
   border:1px solid #d2d2d2;
   box-shadow:inset #fff 0 1px 0, inset rgba(0,0,0,0.03) 0 -1px 0;*/
-  width:270px;
+  /*width:300px;*/
 }
 
 header li {
-  width:100px;
-  height:40px;
-  float: left;
+  height:30px;
 }
 
 header .spacer {
@@ -184,10 +179,10 @@ header .spacer {
 
 header ul a {
   line-height:1;
-  font-size:12px;
+  font-size:14px;
   color:#999;
   display:block;
-  text-align:center;
+  /*text-align:center;*/
   padding-top:6px;
   height:34px;
 }
@@ -213,15 +208,6 @@ strong {
   font-weight:700;
 }
 
-header ul li + li {
-  width:88px;
-  border-left:1px solid #fff;
-}
-
-header ul li + li + li {
-  border-right:none;
-  width:89px;
-}
 
 header ul a strong {
   font-size:14px;
@@ -256,6 +242,27 @@ footer {
 .imghalf {
   width: 45%;
   margin: 10px;
+}
+
+.policies {
+  font-size: 12px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+  min-width: 100px;
+  color:#222;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
 }
 
 @media print, screen and (max-width: 960px) {
