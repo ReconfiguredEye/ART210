@@ -255,9 +255,9 @@ table {
 
 td, th {
   border: 1px solid #dddddd;
-  text-align: left;
+  text-align: left top;
   padding: 8px;
-  min-width: 100px;
+  min-width: 150px;
   color:#222;
 }
 
@@ -265,6 +265,39 @@ tr:nth-child(even) {
   background-color: #dddddd;
 }
 
+table p {
+  font-size: 1em;
+  font-family: adobe-garamond-pro, serif;
+  color:#222;
+}
+
+table h1 {
+  font-size: 1em;
+}
+
+table h2 {
+  font-size: 1em;
+}
+
+table h3 {
+  font-size: 1em;
+}
+
+table h4 {
+  font-size: 1em;
+}
+
+table h5 {
+  font-size: 1em;
+}
+
+table h6 {
+  font-size: 1em;
+}
+
+table li {
+  font-size: 1em;
+}
 
 /* Social Media Icons */
 
