@@ -7,4 +7,4 @@ University
 
 Please select a Year / Semester for specific information and course materials.
 
-[Fall | 2020](https://reconfiguredeye.github.io/ART210/web/)
+[Fall 2020](https://reconfiguredeye.github.io/ART210/web/)
