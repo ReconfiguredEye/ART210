@@ -265,10 +265,11 @@ tr:nth-child(even) {
   background-color: #dddddd;
 }
 
-table p {
+table th p {
   font-size: 1em;
   font-family: adobe-garamond-pro, serif;
-  color:#222;
+  color:#555;
+  font-weight: 300;
 }
 
 table h1 {
